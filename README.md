@@ -27,4 +27,12 @@ A group of scripts made for synchronising exams from the UONET+ Vulcan online gr
 - Enter [here](https://console.cloud.google.com/apis/credentials)
 - Click ```Create credentials```
 - From a opened list box select ```OAuth client ID```
-- Select ```Other```
+- Select ```Other```, give a custom name and then click ```Create``` 
+- Close the dialog window which appeared a while before
+- Download user login data file, change its file to ```credentials.json```, create a directory named ```config``` and put this file there
+
+## Register the script
+- Open the UONET+ Vulcan website, log in and choose ```Mobile access``` section
+- *virtualenv*
+- Click
+- Run the ```configure.py``` script with proper parameters: ```python3 configure.py <token> <> <PIN>```
