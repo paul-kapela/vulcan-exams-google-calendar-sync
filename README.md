@@ -12,6 +12,7 @@ A group of scripts made for synchronising exams from the UONET+ Vulcan online gr
 ## Requirements:
 - [requests](https://requests.readthedocs.io/en/master/)
 - [oauth2client](https://oauth2client.readthedocs.io/en/latest/)
+- [uonet-request-signer](https://github.com/wulkanowy/uonet-request-signer)
 - [google-api-python-client](https://pypi.org/project/google-api-python-client/)
 
 ## Usage:
