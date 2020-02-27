@@ -1,0 +1,4 @@
+requests
+oauth-2-client
+uonet_request_signer
+google-api-python-client
