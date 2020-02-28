@@ -33,7 +33,7 @@ A group of scripts made for synchronising exams from the UONET+ Vulcan online gr
 - Download user login data file, change its file to ```credentials.json```, create a directory named ```config``` and put this file there
 
 ## Register the script
-- Open the UONET+ Vulcan website, log in and choose ```Mobile access``` section
+- Open the UONET+ Vulcan website, log in and choose ```Dostęp mobilny``` section
 - *virtualenv*
 - Click
-- Run the ```configure.py``` script with proper parameters: ```python3 configure.py <token> <> <PIN>```
+- Run the ```configure.py``` script with proper parameters: ```python3 configure.py <token> <symbol> <PIN>```
