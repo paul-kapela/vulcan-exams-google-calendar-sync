@@ -14,6 +14,7 @@ A group of scripts made for synchronising exams from the UONET+ Vulcan online gr
 - [oauth2client](https://oauth2client.readthedocs.io/en/latest/)
 - [uonet-request-signer](https://github.com/wulkanowy/uonet-request-signer/tree/master/python)
 - [google-api-python-client](https://pypi.org/project/google-api-python-client/)
+- [google-auth-oauthlib](https://github.com/googleapis/google-auth-library-python-oauthlib)
 
 ## Usage:
 ### Dependencies installation:
