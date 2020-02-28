@@ -18,7 +18,7 @@ A group of scripts made for synchronising exams from the UONET+ Vulcan online gr
 
 ## Usage:
 ### Dependencies installation:
-```pip install -r requirements.txt```
+```python3 -m pip install -r requirements.txt```
 
 ### Creating a Google API project:
 - Open the [Google API console](https://console.cloud.google.com/apis/dashboard)
