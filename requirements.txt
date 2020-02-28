@@ -1,4 +1,5 @@
 requests
 oauth-2-client
-uonet_request_signer
+uonet-request-signer
 google-api-python-client
+google-auth-oauthlib
