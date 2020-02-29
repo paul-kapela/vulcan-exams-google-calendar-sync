@@ -33,11 +33,11 @@ A script made for synchronising exams from the UONET+ Vulcan online grade book w
 - Close the dialog window which appeared a while before
 - Download user login data file, change its file to ```credentials.json```, create a directory named ```config``` and put this file there
 
-## Register the script
+### Register the script
 - Open the UONET+ Vulcan website, log in and choose ```Dostęp mobilny (Mobile access)``` section
 - Click ```Zarejestruj urządzenie mobilne (Register the mobile device)```
 - Run the ```configure.py``` script with proper parameters: ```python3 configure.py <token> <symbol> <PIN>```
 
-## How to use the script
+### How to use the script
 - Simply run the ```main.py``` script. At the first launch, you will be prompted to log in into your Google account - the link to authentication will appear in the console.
 - After the first launch you can add it to scheduled tasks (ex. ```cron```)
