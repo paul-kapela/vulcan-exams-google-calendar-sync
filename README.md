@@ -31,7 +31,7 @@ A script made for synchronising exams from the UONET+ Vulcan online grade book w
 - From a opened list box select ```OAuth client ID```
 - Select ```Other```, give a custom name and then click ```Create``` 
 - Close the dialog window which appeared a while before
-- Download user login data file, change its file to ```credentials.json```, create a directory named ```config``` and put this file there
+- Download user login data file, rename it to ```credentials.json```, create a directory named ```config``` and put this file there
 
 ### Register the script
 - Open the UONET+ Vulcan website, log in and choose ```Dostęp mobilny (Mobile access)``` section
