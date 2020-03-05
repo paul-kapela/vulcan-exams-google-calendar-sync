@@ -137,6 +137,8 @@ def format_exams(exams, formatted_exam):
 # Google Calendar API routines and utilities
 
 def initialize_google_calendar_api():
+    credentials = None
+    
     if os.path.exists(paths["GoogleCalendarToken"]):
             with open(paths["GoogleCalendarToken"], 'rb') as token:
                 credentials = pickle.load(token)
