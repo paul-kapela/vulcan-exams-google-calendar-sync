@@ -1,5 +1,7 @@
 # vulcan-exams-calendar-sync
 
+* [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) 
+
 A script made for synchronising exams from the UONET+ Vulcan online grade book with Google Calendar. Made basing on an existing unofficial documentation of the UONET+ Vulcan online grade book available here: https://gitlab.com/erupcja/uonet-api-docs.
 
 ## Acknowledgments:
