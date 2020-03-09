@@ -137,6 +137,8 @@ def format_exams(exams, formatted_exam):
 # Google Calendar API routines and utilities
 
 def initialize_google_calendar_api():
+    credentials = None
+    
     if os.path.exists(paths["GoogleCalendarToken"]):
             with open(paths["GoogleCalendarToken"], 'rb') as token:
                 credentials = pickle.load(token)
@@ -187,5 +189,5 @@ if __name__ == "__main__":
     for formatted_exam in formatted_exams:
         if(add_exam(google_calendar_service, formatted_exam)):
             added_exams.append(formatted_exam)
-
-    print("Added {} exams!".format(len(added_exams) / 2))
+        
+    print("Added {} exams!".format(len(added_exams)))
