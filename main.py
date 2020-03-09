@@ -119,7 +119,7 @@ def formatted_exam(exam):
                 "timeZone": "Europe/Warsaw"
             },
             "end": {
-                "dateTime": (datetime.datetime(year, month, day + 1).isoformat() + "+01:00"),
+                "dateTime": ((datetime.datetime(year, month, day) + datetime.timedelta(days=1)).isoformat() + "+01:00"),
                 "timeZone": "Europe/Warsaw"
             }
         }
@@ -187,5 +187,5 @@ if __name__ == "__main__":
     for formatted_exam in formatted_exams:
         if(add_exam(google_calendar_service, formatted_exam)):
             added_exams.append(formatted_exam)
-        
-    print("Added {} exams!".format(len(added_exams)))
+
+    print("Added {} exams!".format(len(added_exams) / 2))

@@ -205,6 +205,7 @@ if __name__ == "__main__":
 
         for pupil in pupils:
             print("{}. {}".format(i, pupil["UzytkownikNazwa"]))
+            i = i + 1
 
         pupil_index = input("Type pupil number: ")
 
