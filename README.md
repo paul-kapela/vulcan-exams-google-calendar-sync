@@ -22,7 +22,7 @@ A script made for synchronising exams from the UONET+ Vulcan online grade book w
 
 ## Usage:
 ### Dependencies installation:
-```python3 -m pip install -r requirements.txt```
+```pip install -r requirements.txt```
 
 ### Creating a Google API project:
 - Open the [Google API console](https://console.cloud.google.com/apis/dashboard)
