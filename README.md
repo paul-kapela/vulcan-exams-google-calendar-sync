@@ -6,7 +6,7 @@ A script made for synchronising exams from the UONET+ Vulcan online grade book w
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
-## Acknowledgments:
+## Acknowledgements:
 - [SynneK1337](https://github.com/SynneK1337) for inspiration ([librus-synchro](https://github.com/SynneK1337/librus-synchro))
 - [selfisekai](https://gitlab.com/selfisekai) for creating an unofficial UONET+ Vulcan documentation ([uonet-api-docs](https://gitlab.com/erupcja/uonet-api-docs))
 - [googleapis](https://github.com/googleapis) for creating Google Calendar API library
