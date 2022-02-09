@@ -21,7 +21,7 @@ A script made for synchronising exams from the UONET+ Vulcan online grade book w
 - [google-auth-oauthlib](https://github.com/googleapis/google-auth-library-python-oauthlib)
 
 ## Usage:
-### Dependencies installation:
+### Dependencies installation
 ```pip install -r requirements.txt```
 
 ### Creating a Google API project:
